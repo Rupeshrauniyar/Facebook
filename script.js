@@ -27,10 +27,7 @@ var swiper = new Swiper(".mySwiper2", {
     const audio = document.getElementById('audio');
     audio.play();
   } 
-function play2() {
-const audio2 = document.getElementById('audio2');
-audio2.play();
-}
+
   function like() {
     var Color = "#FF748EFF"
     this.style.color = Color;
@@ -42,7 +39,7 @@ audio2.play();
  var buttons = document.querySelectorAll('.btn');
   buttons.forEach(function(button) {
     button.addEventListener('click', like , play1 );
-    button.addEventListener('dblclick', unlike , play2);
+    button.addEventListener('dblclick', unlike );
   });
  
  // Get all video elements
@@ -52,7 +49,7 @@ const videos = document.querySelectorAll('.video');
 const options = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.7 // Change this value based on when you want the video to start playing
+    threshold: 1 // Change this value based on when you want the video to start playing
 };
 
 // Callback function when video is in the viewport
@@ -73,7 +70,7 @@ const observer = new IntersectionObserver(handleIntersection, options);
 videos.forEach(video => {
     observer.observe(video);
 });
-    const page3 = document.getElementsByClassName('page2-main')
+    const page3 = document.getElementById('page3')
     const button = document.getElementById('play');
     const video = document.getElementById('video');
 
@@ -85,12 +82,5 @@ videos.forEach(video => {
     };
    
     
-    // Add a click event listener to the hyperlink
-    button.addEventListener('click', playVideoOnClick);
-    button.addEventListener('click' ,function(){
-    button.style.display = 'none',
-    page3.style.display = 'grid'
-    })
-     
    
     

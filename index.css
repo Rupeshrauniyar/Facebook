@@ -17,7 +17,7 @@ width: 100%;
 
 }
 #i1{
-margin-left: 20vh;
+margin-left: 10vh;
 font-size: 3vh;
 }
 nav a{
@@ -196,11 +196,3 @@ color: #dadada;
 }
 
 
-.noneplay{
-opacity: 1;
-width: 10px;
-height: 10px;
-margin-top: -100vh;
-margin: 0;
-padding: 0;
-}

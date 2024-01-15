@@ -1,14 +1,12 @@
-#video{
-display: none;
-}
-.page2-king{
+
+#page2-king{
 display: flex;
  position: relative;
   align-items: center;
    justify-content: center;
    margin-top: 70%;
    }
-   button{
+   #play{
    width: 20vh;
    height: 8vh;
    color: #fff;
@@ -16,3 +14,231 @@ display: flex;
    border: none;
    outline: none;
    font-weight: 300;
+   transition: all 2s ease;
+}
+     #video {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 8px #dadada;
+      border-radius: 12px;
+      }
+.page3-bottom{
+display: flex;
+justify-content: space-around;
+position: relative;
+align-items: center;
+}
+.page3-bottom i{
+font-size: 3vh;
+}
+.page3-bottom button{
+border: none;
+outline: none;
+background-color:#fff;
+color: #dadada;
+}
+.box1{
+box-shadow: 0 0 8px #dadada;
+
+}
+nav img{
+height: 8vh;
+width: 15vh;
+object-fit: contain;
+}
+
+nav{
+position: relative;
+align-items: center;
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+}
+#i1{
+margin-left: 10vh;
+font-size: 3vh;
+}
+nav a{
+text-decoration: none;
+color: black;
+font-size: 2vh;
+}
+.nav-part2{
+display: flex;
+align-items: center;
+position: relative;
+justify-content: space-between;
+height: 6vh;
+padding: 0 30px;
+border-bottom: 1px solid #1b2421;
+}
+.nav-part2 a{
+color: black;
+text-decoration: none;
+font-size: 2vh;
+margin-bottom: 2vh;
+}
+
+.nav-part2 a:hover{
+border-bottom: 2px solid #8098ff;
+color: #5558ff;
+}
+.nav-part2 a#active{
+color: #5558ff;
+}
+
+
+.nav-part3{
+position: relative;
+align-items: center;
+display:inline-flex;
+justify-content: space-between;
+line-height: 20px;
+height: 8vh;
+}
+.nav-part3 img{
+width: 5vh;
+height: 5vh;
+object-fit: contain;
+border-radius: 50px;
+border: 1px solid #000;
+}
+.nav-part3 input{
+width: 40vh;
+margin-left: 10px;
+object-fit: contain;
+height: 5vh;
+border-radius: 50px;
+border: 2px solid #dadada;
+color: #000000;
+}
+.nav-part3 input:hover{
+background-color: #dadada;
+}
+
+.nav-part3 i{
+margin-left: 14px;
+font-size:21px;
+}
+   .page1 .swiper {
+      width: 50vh;
+      height: 30%;
+      margin-top: 3vh;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+     
+    }
+
+    .swiper-slide video {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 0 8px #dadada;
+      border-radius: 12px;
+      }
+     .swiper-slide poster {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 100px;
+      }
+      
+     .page2-name{
+     margin-top: 5vh;
+     }
+      .page2-name img{
+      width: 5vh;
+     height: 5vh;
+     object-fit: contain;
+      border-radius: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.page2-name{
+ display: flex;
+    align-items: center;
+   
+    position: relative;
+    }
+
+.page2-name h3{
+padding: 0 10px;
+}
+.page2-title h4{
+padding: 0 10px;
+font-weight: 300;
+}
+
+    .swiper {
+      width: 100%;
+      height: 50%;
+    }
+
+    .page2-details .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: contain;
+      border-radius: 50px;
+    }
+
+.swiper-button-next{
+margin-right: 2px;
+}
+.swiper-button-prev{
+margin-left: 2px;
+}
+
+
+.img{
+border-radius: 50px;
+ }
+ .page2-bottom{
+display: flex;
+justify-content: space-around;
+position: relative;
+align-items: center;
+}
+.page2-bottom i{
+font-size: 3vh;
+}
+.page2-bottom button{
+border: none;
+outline: none;
+background-color:#fff;
+color: #dadada;
+}
+
+
+
