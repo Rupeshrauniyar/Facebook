@@ -45,8 +45,8 @@ margin-bottom: 2vh;
 border-bottom: 2px solid #8098ff;
 color: #5558ff;
 }
-.nav-part2 a.active{
-border-bottom: 2px solid #8098ff;
+.nav-part2 a#active{
+color: #5558ff;
 }
 
 
@@ -193,4 +193,14 @@ border: none;
 outline: none;
 background-color:#fff;
 color: #dadada;
+}
+
+
+.noneplay{
+opacity: 1;
+width: 10px;
+height: 10px;
+margin-top: -100vh;
+margin: 0;
+padding: 0;
 }
