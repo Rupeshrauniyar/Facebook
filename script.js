@@ -82,5 +82,9 @@ videos.forEach(video => {
     };
    
     
-   
+   var loader = document.querySelector('.loader')
+setTimeout(function(){
+loader.style.top="-100%"
+},1000)
+ 
     
